@@ -1,3 +1,83 @@
+:root {
+    --blue: #007fc6;
+    --white: white;
+}
+
+@media (max-width: 800px) {
+    header {
+        background-color: var(--blue);
+        color: var(--white);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black
 }
+
+header {
+    background-color: var(--blue);
+    color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width:11%;
+    display: block;
+    margin: 0px;
+    position: absolute;
+    left: 23px;
+
+}
+
+.header-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%
+}
+
+h1 {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    right: auto;
+    left: auto;
+}
+
+.list {
+    align-self: center;
+    justify-self: center;
+}
+
+.inline-link {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+main {
+    
+}
+    
