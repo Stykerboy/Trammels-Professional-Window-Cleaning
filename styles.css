@@ -24,7 +24,8 @@
 }
 
 body {
-    background-color: black
+    background-color: black;
+    color: white;
 }
 
 header {
@@ -37,6 +38,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 10rem;
 }
 
 #logo {
@@ -78,6 +80,17 @@ h1 {
 }
 
 main {
-    
+    margin-top: 11rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.gallery-pic {
+  width: 33%;
+  height: auto;
 }
     
