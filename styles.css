@@ -24,8 +24,13 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+}
+
+.text {
+    width: 75%;
+    margin: auto auto;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 header {
@@ -70,6 +75,7 @@ h1 {
 .list {
     align-self: center;
     justify-self: center;
+    font-family: sans-serif;
 }
 
 .inline-link {
@@ -86,6 +92,8 @@ main {
 .gallery {
     display: flex;
     justify-content: space-evenly;
+    width: 85%;
+    margin: auto auto;
 
 }
 
